@@ -1,0 +1,51 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pkl
+*.db
+
+# Virtual environments
+.venv/
+env/
+venv/
+
+# Environment variables
+.env
+.env.*
+
+# Streamlit specific
+.streamlit/
+
+# SQLite database + app instance
+instance/
+*.sqlite3
+*.db
+
+# Logs
+*.log
+logs/
+
+# Jupyter / IPython
+.ipynb_checkpoints/
+*.ipynb
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Docker
+*.pid
+*.tar
+*.sock
+
+# VSCode / IDE
+.vscode/
+.idea/
+
+# Build / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
