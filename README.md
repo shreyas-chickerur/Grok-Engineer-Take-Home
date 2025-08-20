@@ -46,4 +46,3 @@ docker compose-up --build
 
 
 ```
-# Grok-Engineer-Take-Home
