@@ -44,5 +44,3 @@ docker compose-up --build
 - `prompts.py` – prompt templates
 - `evals.py` – tiny evaluation harness
 
-
-```
