@@ -90,7 +90,7 @@ with st.sidebar:
     st.divider()
     st.caption("🔐 Grok API Key " + ("(dry-run mode)" if client.dry_run else "loaded"))
 
-tab_list = st.tabs(["📋 Leads", "🧪 Evals", "⚙️ Settings"])
+tab_list = st.tabs(["Leads", "Evals", "Settings"])
 
 with tab_list[0]:
     st.subheader("Leads")
@@ -144,7 +144,7 @@ with tab_list[0]:
                     channel = st.selectbox("Channel", ["email", "linkedin", "twitter"], index=0, key="channel")
                     tone = st.selectbox("Tone", ["friendly", "professional", "concise"], index=1, key="tone")
                     value_prop = st.text_input("Value Prop", "Automate SDR tasks with Grok-powered workflows.")
-                    if st.button("✉️ Generate Message"):
+                    if st.button("Generate Message"):
                         with get_session() as s2:
                             lead2 = s2.get(Lead, open_id)
                             msg = generate_outreach(s2, lead2, channel, tone, value_prop)
