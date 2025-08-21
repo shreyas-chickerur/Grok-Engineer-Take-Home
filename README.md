@@ -1,6 +1,6 @@
 # Grok SDR (Streamlit, All-Python)
 
-A 4-hour-friendly prototype of a Grok-powered SDR: lead qualification, personalized outreach, and lightweight evals — all in Streamlit with an SQLite backend.
+A prototype of a Grok-powered SDR: lead qualification, personalized outreach, and lightweight evals — all in Streamlit with an SQLite backend.
 
 ## Quickstart (Local)
 ```bash
